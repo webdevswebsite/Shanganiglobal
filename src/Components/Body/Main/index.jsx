@@ -4,7 +4,6 @@ import Study from '../../../Assets/Images/study.jpeg'
 import Phone from '../../../Assets/Images/Germany.jpeg'
 import City from '../../../Assets/Images/lumlautu.jpeg'
 import Charging from '../../../Assets/Images/charging.jpeg'
-import AltArrow from '../../../Assets/Images/altarrow/2x/outline_arrow_right_alt_black_24dp.png'
 import './style.scss'
 
 const Main = () => {

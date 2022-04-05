@@ -1,7 +1,6 @@
 import React from 'react'
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
-import { useQuery } from 'react-query'
 import './style.scss'
 import Facebook from '../../Assets/Images/fcbk/1x/outline_facebook_white_24dp.png'
 
