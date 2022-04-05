@@ -1,0 +1,123 @@
+footer {
+    .footer {
+        display: flex;
+        top: 20rem;
+        flex-direction: row;
+        width: 100%;
+        background-color: #000000;
+        color: #ffffff;
+        .column {
+            display: flex;
+            flex-direction: column;
+            div {
+                background: #ffffff;
+                width: 3.056vw;
+                height: 3.056vw;
+                margin-top: 2rem;
+            }
+        }
+        .clmn2 {
+            display: flex;
+            flex-direction: column;
+            margin-left: 4rem;
+            .bgn {
+                display: flex;
+                flex-direction: row;
+                margin-top: 2rem;
+                font-size: 18px;
+                .move {
+                    margin-left: 2rem;
+                    margin-top: 1rem;
+                }
+            }
+        }
+        .login_form {
+            h1 {
+                text-align: left;
+            }
+            .error_message {
+                color: red;
+                font-size: 12px;
+                margin-top: -1rem;
+                margin-bottom: 2rem;
+            }
+            margin-top: 2rem;
+            .fa-register {
+                margin-left: 2.5rem;
+                margin-bottom: 0;
+                .Registration {
+                    margin-left: 1rem;
+                    color: #13aa57;
+                    cursor: pointer;
+                }
+            }
+            form {
+                width: 190%;
+            }
+            .input-container {
+                margin-bottom: 1.5rem;
+                .label {
+                    margin-bottom: 0.25rem;
+                    font-size: 12px;
+                }
+            }
+            input {
+                margin-top: 0.275rem;
+                font-size: 15px;
+                font-weight: 500;
+                display: block;
+                width: 100%;
+                padding: 15px 1rem;
+                line-height: 1.5;
+                color: #495057;
+                border: 1.6px solid #e5e5e5;
+                border-radius: 0.5rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+            .form-button {
+                font-size: 15px;
+                font-weight: 500;
+                display: block;
+                width: 110%;
+                padding: 15px 1rem;
+                line-height: 1.5;
+                color: #ffffff;
+                background: #13aa57;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            }
+            margin-bottom: 2rem;
+        }
+    }
+    .gig {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10rem;
+        .bg-gig {
+            .bgn {
+                display: flex;
+                flex-direction: row;
+                margin-top: 3rem;
+                font-size: 18px;
+                .move {
+                    margin-left: 2rem;
+                }
+            }
+        }
+        .bottom {
+            display: flex;
+            flex-direction: column;
+            margin-top: 25rem;
+            margin-left: 23rem;
+            .fbck {
+                display: flex;
+                flex-direction: row;
+                .red {
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
+}

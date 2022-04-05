@@ -1,0 +1,54 @@
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12rem;
+    .color {
+        position: absolute;
+        left: 0px;
+        top: 136rem;
+        width: 0.7rem;
+        height: 285%;
+        content: "";
+        z-index: 99;
+        background: rgb(0, 0, 0);
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+        .bgn-card {
+            margin-top: 5rem;
+            margin-left: 2rem;
+            h1 {
+                font-size: 30px;
+                letter-spacing: 0.1rem;
+                margin-top: -1rem;
+            }
+            .p {
+                margin-left: 6.5rem;
+                line-height: 1.5rem;
+            }
+        }
+        .rem {
+            margin-top: 9rem;
+        }
+    }
+    .reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-left: -2rem;
+        margin-top: 3rem;
+        .bgn-card {
+            margin-right: 5rem;
+        }
+    }
+    .center {
+        .bgn-card {
+            width: 45%;
+        }
+    }
+    .images {
+        height: 400px;
+    }
+}

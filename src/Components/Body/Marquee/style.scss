@@ -1,0 +1,31 @@
+.bg-mini {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    z-index: 9999;
+    .mini {
+        display: flex;
+        flex-direction: row;
+        div {
+            border: 3px solid black;
+            border-bottom: none;
+            width: 40%;
+            border-top-right-radius: 1rem;
+            border-top-left-radius: 1rem;
+            text-align: center;
+        }
+        .diff {
+            color: #ffffff;
+            background: rgb(53, 42, 132);
+        }
+    }
+    .bg {
+        padding-top: 3rem;
+        background: rgb(53, 42, 132);
+        marquee {
+            p {
+                font-size: 36px;
+                color: #ffffff;
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+header {
+    width: 90%;
+    margin: 0 auto;
+    .color {
+        position: absolute;
+        left: 0px;
+        top: 5rem;
+        width: 0.7rem;
+        height: 65%;
+        content: "";
+        z-index: 99;
+        background: rgb(0, 0, 0);
+    }
+    .color2 {
+        position: absolute;
+        left: 0px;
+        top: 42rem;
+        width: 0.7rem;
+        height: 70%;
+        content: "";
+        z-index: 99;
+        background: linear-gradient(to top, rgb(255, 220, 0), rgb(212, 1, 21) 20%, rgb(164, 35, 132) 40%, rgb(53, 42, 132) 60%, rgb(0, 153, 147) 87%, rgb(161, 198, 50));
+    }
+    h1 {
+        font-size: 50.667px;
+    }
+    .energy {
+        height: 550px;
+        width: 700px;
+        margin-left: 35rem;
+        margin-top: -8rem;
+    }
+    .para {
+        width: 75%;
+        margin-left: 6rem;
+        p {
+            font-size: 20px;
+            line-height: 2.3rem;
+        }
+        .p1 {
+            margin-top: 5rem;
+        }
+    }
+}
